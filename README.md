@@ -1,16 +1,27 @@
-# React + Vite
+# 7utors (UI Mockup)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a frontend UI mockup for the 7utors landing and dashboard pages. It is a visual prototype meant for design and layout review only — it is not a production-ready application and does not include backend functionality.
 
-Currently, two official plugins are available:
+Quick start
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Install dependencies:
 
-## React Compiler
+```bash
+npm install
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Run dev server (Vite):
 
-## Expanding the ESLint configuration
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The app is served using the Vite `base` path `/7utors-mockup/` by default. When running behind that subpath, the router basename is already configured.
+
+Notes
+
+- This repo is a mockup: data is static or placeholder, and authentication/endpoints are not implemented.
+- Use this project as a visual reference or for extracting components.
+- For production, implement a backend, API integration, and proper environment configuration.
+
+If you want, I can update the README further (contributing notes, design tokens, or component inventory).
